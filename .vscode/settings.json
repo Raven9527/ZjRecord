@@ -8,7 +8,8 @@
         "*.tcc": "c",
         "istream": "c",
         "ostream": "c",
-        "streambuf": "c"
+        "streambuf": "c",
+        "random": "c"
     },
     
     "clang.executable" : "C:\\Program Files\\LLVM\\bin\\clang.exe",

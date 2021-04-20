@@ -1,0 +1,3 @@
+#include <stdio.h>
+#include <string.h>
+int stack[1001];int b[1001];int main(){	int T,n;	while(scanf("%d",&T)!=EOF)	{		if(T==0)		break;		while(scanf("%d",&n)!=EOF)		{					if(n==0)			break;			else			{				memset(b,0,sizeof(b));				memset(stack,0,sizeof(stack));				int i;				b[0]=n;				int top=-1;				int k;				for(i=1;i<T;i++)				{					scanf("%d",&k);					b[i]=k;				}				k=0;				for(i=1;i<=T;i++)				{					top++;					stack[top]=i;					while(stack[top]==b[k] && top>=0)					{						//printf("stack[%d] = %d\n",top,stack[top]);						top--;						k++;					}				}				if(top==-1)				printf("Yes\n");				else				printf("No\n");			}			printf("\n");		}	}	return 0;} 

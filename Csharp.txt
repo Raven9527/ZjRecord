@@ -1,0 +1,8 @@
+Map20Label1.Visible = false;
+Map20Label2.Visible = false;
+Map20Label3.Visible = false;
+Map20Label4.Visible = false;
+Map20Label5.Visible = false;
+Map20Label6.Visible = false;
+Map20Label7.Visible = false;
+Map20Label8.Visible = false;

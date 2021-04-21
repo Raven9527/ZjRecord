@@ -1,0 +1,54 @@
+Part1:
+原則 an = an-1 + an-2 + an-3
+
+有一滿足 矩陣A 滿足
+    
+    an-1   an
+A * an-2 = an-1
+    an-3   an-2
+
+以及
+
+    an     an+1
+A * an-1 = an
+    an-2   an-1     
+
+=>
+
+      an-1   an+1
+A^2 * an-2 = an
+      an-3   an-1
+
+
+(矩陣A必定使an往後一項 且令原則成立)
+
+以之前三項 1 1 1
+a4 = 3 (n從4開始算)
+
+則
+
+          1   an
+A^(n-3) * 1 = an-1
+          1   an-2
+
+
+
+    1 1 1
+A = 1 0 0 (因an = an-1 + an-2 + an-3)
+    0 1 0
+
+Part2:
+
+A^n 做快速冪
+
+原Map 設為單位矩陣
+做一個新的 n_map 用做快速冪時相乘用
+n 換成二進制
+右至左，遇1 Map = Map * n_map
+不管0或1 n_map = n_map * n_map
+最後Map即為A^n
+
+Part3:
+      1
+A^n * 1
+      1

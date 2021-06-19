@@ -10,7 +10,9 @@
         "ostream": "c",
         "streambuf": "c",
         "random": "c",
-        "algorithm": "c"
+        "algorithm": "c",
+        "string": "c",
+        "string_view": "c"
     },
     
     "clang.executable" : "C:\\Program Files\\LLVM\\bin\\clang.exe",

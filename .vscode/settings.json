@@ -12,7 +12,8 @@
         "random": "c",
         "algorithm": "c",
         "string": "c",
-        "string_view": "c"
+        "string_view": "c",
+        "array": "c"
     },
     
     "clang.executable" : "C:\\Program Files\\LLVM\\bin\\clang.exe",
@@ -30,5 +31,6 @@
         "-IC:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include",
         "-I${workspaceRoot}\\include",
         "-I${cwd}"
-    ]
+    ],
+    "C_Cpp.errorSquiggles": "Disabled"
 }

@@ -83,3 +83,23 @@ int AssertStringEqual(char *except, char *active)
 {
     return (strcmp(except, active) == 0);
 }
+
+// int AssertStringArrayEquals(char except[SIZE][SIZE], char acitve[SIZE][SIZE], int eRow, int eCol)
+// {
+//         int i, j;
+//     for (i = 0; i < eRow; i++)
+//     {
+//         for (j = 0; j < eCol; j++)
+//             if (AssertIntegerEquals(except[i][j], acitve[i][j]) == 0)
+//                 return 0;
+//     }
+//     return 1;
+// }
+
+void PrintIntegerArray(int array[], int size)
+{
+    int i;
+    for (i = 0; i < size; i++)
+        printf("%d ", array[i]);
+    printf("\n");
+}

@@ -20,17 +20,18 @@
     "clang.cxxflags": [
         "-std=c++11",
         "-IC:\\MinGW\\include",
-        "-IC:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include",
-        "-IC:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++",
+        "-IC:\\MinGW\\lib\\gcc\\mingw32\\9.2.0\\include",
+        "-IC:\\MinGW\\lib\\gcc\\mingw32\\9.2.0\\include\\c++",
         "-I${workspaceRoot}\\include",
         "-I${cwd}"
     ],
     "clang.cflags":[
         "-std=c99",
         "-IC:\\MinGW\\include",
-        "-IC:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include",
+        "-IC:\\MinGW\\lib\\gcc\\mingw32\\9.2.0\\include",
         "-I${workspaceRoot}\\include",
         "-I${cwd}"
     ],
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "editor.fontFamily": "Consolas, '微軟正黑體', monospace"
 }
